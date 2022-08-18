@@ -9,7 +9,7 @@
 </head>
 <body>
 <canvas id="myCanvas"></canvas>
-<audio id="music" src="Chaos Chaos - Do You Feel It.mp3" autoplay loop></audio>
+<audio id="music" src="Chaos Chaos - Do You Feel It.mp3" loop></audio>
 <h1 class="heading" id="head">Tic tac toe</h1>
 <span class="button reset-btn" onclick="reset()">
     <i class="fa fa-undo icon"></i>
@@ -67,6 +67,20 @@
     <br>
     <span id="player2-score">0</span>
 </span>
+</div>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+        <h2>Click the play button to enable the music</h2>
+      </div>
+      <div class="modal-body">
+        <button class="modal-play-button" onclick="playMusic()">Enable Audio</button>
+      </div>
+  </div>
+
 </div>
 
 <script src="code.js"></script>
